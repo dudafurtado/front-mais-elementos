@@ -1,14 +1,40 @@
-![](https://i.imgur.com/xG74tOh.png)
-
 # Conhecendo mais elementos
 
-## Exercícios de classe 🏫
+**Elemento de linha** = textos que permanecem naquela linha.  
+**Elemento de bloco** = quebra linha e gera uma separação de conteúdo.
 
-1. Receita de lasanha 2.0
-2. WikiCat
+-     <div><div/>  
+Não tem um significado especial, mas pode ser entendido como uma divisão.  
+Possui uma quebra de linha.  
+É permitido colocar qualquer tag dentro.
 
+-     <span><span/>  
+É um elemento de linha, então não gera espaço para baixo de outro elemento.
 
-Preencha a checklist para finalizar o exercício:
--   [ ] Forkar o repositório
+-     <header><header/>
+
+-     <nav><nav/>
+
+-     <aside><aside/>
+
+-     <main><main/>
+
+-     <article><article/>
+
+-     <section><section/>
+
+-     <footer><footer/>
+
+-     <p><p/>
+
+-     <img><img/>
+
+-     <a><a/>
+
+-     <button><button/>
+
+-     <input><input/>
+
+-     <option><option/>
 
 ###### tags: `módulo 1` `front-end` `HTML`
