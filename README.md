@@ -53,16 +53,20 @@ Possui navegação, por isso o elemento nav.
   *alt=""* --> descrição de acessibilidade sobre os detalhes da imagem
   
 -     <a><a/>
-  Âncora
+  Âncora, hiper link
 **Propriedades:**  
+*href=""* --> após o clique, redireciona o usuário para a url de referência
   
 -     <button><button/>
 **Propriedades:**  
+*value=""* --> o que esse botão faz ao ser clicado, qual funcionalidade foi atribuida a tag
   
 -     <input><input/>
 **Propriedades:**  
+*value=""* --> o que esse input faz ao ser clicado, a qual local os dados inseridos irão, qual finalidade elas tem. possivelmente banco de dados
   
 -     <option><option/>
+Cada tag é uma opção referente a o tipo de input seletor
 **Propriedades:**  
   
  id --> identificador único para diferenciar elementos da tela. é o mais importante na hierarquia
