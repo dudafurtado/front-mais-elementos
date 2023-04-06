@@ -32,7 +32,7 @@ Caracteriza o conteúdo principal da página, aquele de maior destaque e atenç�
 -     <section><section/>
 Uma sessão da página, ao qual, pode receber qualquer tag.
 É comum ser um agregado de tags juntas.
-!! É possível colocar um conjunto de section dentro de uma article
+!! É possível colocar um conjunto de section dentro de uma article.
   
 -     <footer><footer/>
 Rodapé.  
@@ -41,35 +41,50 @@ Possui navegação, por isso o elemento nav.
   
 -     <p><p/>  
 **Propriedades:**  
-  *hidden* --> vai esconder o valor presente dentro da tag e a própria tag no geral  
-  *title=""* --> ao deslizar o mouse por cima do elemento ele reflete uma mensagem adicional na tela, escrita dentro da propriedade  
-  *dir* --> especifica de antemão se esse texto deve se posicionar na direita ou na esquerda   
-  *lang* --> linguagem do texto dentro da tag
+  *hidden* --> vai esconder o valor presente dentro da tag e a própria tag no geral;  
+  *title=""* --> ao deslizar o mouse por cima do elemento ele reflete uma mensagem adicional na tela, escrita dentro da propriedade;  
+  *dir* --> especifica de antemão se esse texto deve se posicionar na direita ou na esquerda;   
+  *lang* --> linguagem do texto dentro da tag.
   
--     <img><img/>
+-     <img><img/>  
 É considerado um elemento de linha.
 **Propriedades:**  
-  *src=""* --> caminho da imagem  
-  *alt=""* --> descrição de acessibilidade sobre os detalhes da imagem
+  *src=""* --> caminho da imagem;  
+  *alt=""* --> descrição de acessibilidade sobre os detalhes da imagem.
   
--     <a><a/>
+-     <a><a/>  
   Âncora, hiper link
 **Propriedades:**  
-*href=""* --> após o clique, redireciona o usuário para a url de referência
+*href=""* --> após o clique, redireciona o usuário para a url de referência.
   
--     <button><button/>
+-     <button><button/>  
 **Propriedades:**  
-*value=""* --> o que esse botão faz ao ser clicado, qual funcionalidade foi atribuida a tag
+*value=""* --> o que esse botão faz ao ser clicado, qual funcionalidade foi atribuida a tag.
   
--     <input><input/>
+-     <input><input/>  
 **Propriedades:**  
-*value=""* --> o que esse input faz ao ser clicado, a qual local os dados inseridos irão, qual finalidade elas tem. possivelmente banco de dados
+*value=""* --> o que esse input faz ao ser clicado, a qual local os dados inseridos irão, qual finalidade elas tem. possivelmente banco de dados.
   
--     <option><option/>
-Cada tag é uma opção referente a o tipo de input seletor
-**Propriedades:**  
+-     <option><option/>  
+Cada tag é uma opção referente a o tipo de input seletor.
   
- id --> identificador único para diferenciar elementos da tela. é o mais importante na hierarquia
- class --> classifica a tag, sendo usado frequentemente 
+  // ACESSIBILIDADE PARA USUÁRIOS DE DIFICULDADE VISUAL
+  
+-     <strong><strong/>  
+Importância para o conteúdo, gera atenção para a informação.  
+Conteúdo em negrito.
+  
+-     <b><b/>  
+Não gera urgência, mas sim um destaque especifico.  
+  
+-     <i><i/>   
+Deixa a fonte no estilo italico.  
+Para interlocução, o tom de voz se diferencia das outras tags, gerando uma emoção específica.  
+  
+-     <em><em/>   
+Representa enfâse e foco.  
+  
+ id --> identificador único para diferenciar elementos da tela. é o mais importante na hierarquia;
+ class --> classifica a tag, sendo usado frequentemente. 
   
 ###### tags: `módulo 1` `front-end` `HTML`
